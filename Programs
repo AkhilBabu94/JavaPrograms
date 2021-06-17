@@ -110,7 +110,7 @@ public class Programs {
     }
 
 //    program to find 3rd highest repeated characters from string.
-    public void secondHighestRepeatedChar(){
+    public void thirdHighestRepeatedChar(){
         String str = "aaaabbbABBCCCCC";
             Map<Character,Integer> map = new HashMap<>();
             map.put(str.charAt(0),1);
@@ -194,7 +194,7 @@ public class Programs {
         }
     }
 
-//    convert each character of word to camelCase.
+//    convert starting character of a word to camelCase.
     public void camelcaseStartingCharaterOfWord(){
         String s = "hi hello how are you";
         char ch[] = s.toCharArray();
